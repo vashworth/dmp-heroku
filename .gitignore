@@ -1,0 +1,10 @@
+## Python ##
+db.sqlite3
+__pycache__
+*.cached_templates/
+
+## Heroku ##
+dmp_heroku/settings-dev.py
+dmp_heroku/settings-prod.py
+static/
+staticfiles/
