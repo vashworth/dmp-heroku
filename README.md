@@ -170,6 +170,13 @@ whitenoise = "*"
 ```
 Make sure your python version is correct. This file tells Heroku what dependencies need to be installed.
 
+Now, inside the terminal, run the following:
+
+```
+pipenv install
+```
+This will create a Pipfile.lock
+
 ### Step 3 - Create Git Repository
 
 This section assumes you have created a GitHub account and [created and added an ssh key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/).
