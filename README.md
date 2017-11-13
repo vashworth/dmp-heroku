@@ -49,7 +49,7 @@ The following steps have been adjusted from the Quick Start section of the DMP d
 pip3 install django-mako-plus
 
 # create a new project with a 'homepage' app
-python3 -m django startproject --template=http://cdn.rawgit.com/doconix/django-mako-plus/master/project_template.zip mysite
+python3 -m django startproject --template=http://cdn.rawgit.com/doconix/django-mako-plus/master/project_template.zip dmp_heroku
 cd dmp_heroku
 python3 manage.py startapp --template=http://cdn.rawgit.com/doconix/django-mako-plus/master/app_template.zip --extension=py,htm,html homepage
 
